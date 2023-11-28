@@ -1,0 +1,6 @@
+There are three thyes of constructors in cpp.
+1. Default constructors
+2. parametric constructors
+3. copy constructor
+contruct is automatically created whenever the object is created iin main function.
+And no return type
