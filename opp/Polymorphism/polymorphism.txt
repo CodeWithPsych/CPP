@@ -1,0 +1,23 @@
+// Base class
+class Animal {
+  public:
+    void animalSound() {
+      cout << "The animal makes a sound \n";
+    }
+};
+
+// Derived class
+class cat : public Animal {
+  public:
+    void animalSound() {
+      cout << "The cat says: meyo meyo \n";
+    }
+};
+
+// Derived class
+class Dog : public Animal {
+  public:
+    void animalSound() {
+      cout << "The dog says: bow wow \n";
+    }
+};
