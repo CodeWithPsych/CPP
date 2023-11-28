@@ -1,0 +1,4 @@
+Destructor is use to destruct the constructor in cpp
+    There is no use to call the destructor same as constructor 
+    same name as class name
+    no return type
