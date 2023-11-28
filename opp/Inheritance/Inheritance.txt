@@ -1,0 +1,86 @@
+Inheritance
+There are 5 types of Inheritance
+1) Single
+2) MultiLevel
+3) Multiple
+4) Hierarchical
+5) Hybrid
+
+__________________________________________________________________________________________________________________________________________
+
+1) Single
+
+class BaseClass {
+    // ...
+};
+
+class DerivedClass : public BaseClass {
+    // ...
+};
+__________________________________________________________________________________________________________________________________________
+
+2) MultiLevel
+
+class Grandparent {
+    // ...
+};
+
+class Parent : public Grandparent {
+    // ...
+};
+
+class Child : public Parent {
+    // ...
+};
+__________________________________________________________________________________________________________________________________________
+
+3) Multiple
+
+class BaseClass1 {
+    // ...
+};
+
+class BaseClass2 {
+    // ...
+};
+
+class DerivedClass : public BaseClass1, public BaseClass2 {
+    // ...
+};
+__________________________________________________________________________________________________________________________________________
+
+
+4) Hierarchical
+
+class BaseClass {
+    // ...
+};
+
+class DerivedClass1 :virtual public BaseClass {
+    // ...
+};
+
+class DerivedClass2 :virtual public BaseClass {
+    // ...
+};
+__________________________________________________________________________________________________________________________________________
+
+5) Hybrid
+class BaseClass {
+    // ...
+};
+
+class DerivedClass1 :virtual public BaseClass {
+    // ...
+};
+
+class DerivedClass2 :virtual public BaseClass {
+    // ...
+};
+
+class AnotherClass : public DerivedClass1, public DerivedClass2 {
+    // ...
+};
+
+
+
