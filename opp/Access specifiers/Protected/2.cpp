@@ -1,4 +1,3 @@
-// Inheritance with Protected Members
 #include <iostream>
 using namespace std;
 
